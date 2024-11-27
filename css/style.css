@@ -453,7 +453,7 @@ footer {
     width: 100%;
     background-color: black;
     /* debug */
-    height: 300px;
+    min-height: 300px;
 }
 
 /* regole top footer */
@@ -462,17 +462,32 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 65%;
+    margin-bottom: 100px;
     /* debug */
-    height: 80%;
-    background-color: blue;
+    /* height: 80%;
+    background-color: blue; */
 }
 
 /* regole infos */
 .infos {
     width: 18%;
     /* debug */
-    height: 100%;
-    background-color: aliceblue;
+    /* height: 100%;
+    background-color: violet; */
+} 
+
+.infos h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.infos ul {
+    list-style: none;
+    color: white;
+}
+
+.infos li {
+    margin-bottom: 10px;
 }
 
 /* regole bottom footer */
@@ -482,6 +497,12 @@ footer {
     align-items: center;
     width: 65%;
     color: white;
+    border-top: 1px solid white;
     /* debug */
     height: 100px;
+}
+
+.bottom-footer i {
+    margin-left: 5px;
+    margin-right: 5px;
 }
