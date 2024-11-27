@@ -8,6 +8,7 @@
 /* regole header */
 header {
     width: 100%;
+    position: fixed;
     /* debug */
     height: 100px;
     background-color: aquamarine;
