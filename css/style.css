@@ -136,11 +136,50 @@ h2 {
     background-color: blueviolet;
 }
 
-/* sezione foto e descrizione trova un partner */
+/* regole sezione foto e descrizione trova un partner */
 .find-partner {
     margin-top: 150px;
     width: 100%;
     /* debug */
     background-color: beige;
     height: 300px;
+}
+
+/* regole sezione operazioni dropbox */
+.operations {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 100px;
+    /* debug */
+    min-height: 200px;
+    background-color: blueviolet;
+}
+
+.options {
+    width: 30%;
+    margin-top: 30px;
+    /* debug */
+    height: 200px;
+    background-color: red;
+}
+
+/* sezione persone */
+.people {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 70%;
+    /* debug */
+    height: 150px;
+    background-color: blue;
+}
+
+.people a {
+    width: 100%;
+    /* debug */
+    background-color: blueviolet;
+    height: 50px;
 }
