@@ -165,7 +165,7 @@ h2 {
     background-color: red;
 }
 
-/* sezione persone */
+/* regole sezione persone */
 .people {
     display: flex;
     flex-direction: column;
@@ -182,4 +182,44 @@ h2 {
     /* debug */
     background-color: blueviolet;
     height: 50px;
+}
+
+/* regole footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    /* debug */
+    height: 300px;
+}
+
+/* regole top footer */
+.top-footer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    /* debug */
+    height: 80%;
+    background-color: blue;
+}
+
+/* regole infos */
+.infos {
+    width: 18%;
+    /* debug */
+    height: 100%;
+    background-color: aliceblue;
+}
+
+/* regole bottom footer */
+
+.bottom-footer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    color: white;
+    /* debug */
+    height: 100px;
 }
