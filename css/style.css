@@ -29,8 +29,25 @@ nav {
 }
 
 /* regole main */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* debug */
+    background-color: #f8f547;
+}
 
+/* regole vari titoli main */
 
+/* regole titoli principali */
+h2 {
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    /* debug */
+    background-color: brown;
+    height: 60px;
+}
 
 /* regole hero */
 .hero {
@@ -38,6 +55,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     background-color: blue;
+    width: 80%;
     /* debug */
     min-height: 400px;
 }
@@ -65,4 +83,64 @@ nav {
     min-height: 300px;
     border: 2px dashed black;
     background-color: pink;
+}
+
+/* regole sezione piani business */
+
+.business {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 40px;
+    /* debug */
+    min-height: 700px;
+    background-color: aquamarine;
+    border: 2px dashed black;
+}
+
+/* regole sezione fatturazione */
+.invoicing {
+    width: 100%;
+    /* debug */
+    background-color: blueviolet;
+    border: 2px dashed black;
+    height: 50px;
+}
+
+/* regole sezione tipo piano */
+.plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    /* debug */
+    height: 500px;
+    background-color: blue;
+}
+
+.type-plan {
+    width: 30%;
+    margin-top: 30px;
+    /* debug */
+    background-color: red;
+    
+}
+
+/* regole sezione contati enterprise */
+.spec-enterprise {
+    width: 100%;
+    margin-top: 30px;
+    /* debug */
+    height: 200px;
+    background-color: blueviolet;
+}
+
+/* sezione foto e descrizione trova un partner */
+.find-partner {
+    margin-top: 150px;
+    width: 100%;
+    /* debug */
+    background-color: beige;
+    height: 300px;
 }
