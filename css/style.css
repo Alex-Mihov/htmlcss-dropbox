@@ -214,30 +214,35 @@ h2 {
     align-items: stretch;
     width: 100%;
     /* debug */
-    min-height: 700px;
-    background-color: blue;
+    /*   */
 }
 
 .type-plan {
     width: 30%;
     margin-top: 30px;
     font-size: 15px;
-    /* debug */
-    background-color: red;
+    padding-bottom: 30px;
     border: 1px solid gray;
+    /* debug */
+    /* background-color: red; */
+    
 }
 
 .options-plan {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid gray;
 }
+
 
 /* regole sezione info generiche */
 .generic-info {
     margin-top: 20px;
     padding: 0 30px;
+}
+
+.generic-info h3 {
+    font-size: 25px;
 }
 
 .generic-info div{
@@ -248,15 +253,88 @@ h2 {
     color: gray;
 }
 
-/* regole info specifiche */
+.price {
+    font-weight: bold;
+}
 
+/* regole info specifiche */
+.specific-info {
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.specific-info div {
+    padding: 10px 0;
+}
+
+.plans-bt {
+    padding: 10px 40px;
+    margin-top: 40px;
+}
+
+.buy {
+    margin-top: 20px;
+}
+
+/* regole sezione punti salienti */
+
+.plas-advantages{
+    margin-top: 50px;
+}
+
+.highlights::before {
+    content: "\2713";
+    color: #0061fe;
+    font-weight: bold;
+}
 /* regole sezione contati enterprise */
 .spec-enterprise {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
+    border: 1px solid gray;
     /* debug */
-    height: 200px;
-    background-color: blueviolet;
+    /* height: 200px; */
+    /* background-color: blueviolet; */
+}
+
+.enterprise-icon {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+/* regole sezione descrittiva */
+.enterprise-des {
+    padding: 30px 0 30px 30px;
+    width: 70%;
+    /* debug */
+    /* background-color: red; */
+}
+
+.enterprise-des h3 {
+    font-size: 25px;
+}
+
+.enterprise-des div {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* sezione bottone enterprise */
+.enterprise-contacts {
+    width: 30%;
+    padding: 30px;
+    /* debug */
+    /* background-color: red; */
+}
+
+.enterprise-bt {
+    padding: 10px 50px;
+    
 }
 
 /* regole sezione foto e descrizione trova un partner */
