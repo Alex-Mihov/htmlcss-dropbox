@@ -96,26 +96,16 @@ main {
     align-items: center;
     flex-direction: column;
     /* debug */
-    background-color: #f8f547;
+    background-color: white;
 }
 
-/* regole vari titoli main */
-
-/* regole titoli principali */
+/* regole titolo hero */
 .main-title-hero {
     margin-top: 150px;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
 }
 
-h2 {
-    display: flex;
-    width: 100%;
-    padding: 30px 0;
-    /* debug */
-    background-color: brown;
-    height: 60px;
-}
 
 /* regole hero */
 .hero {
@@ -184,21 +174,39 @@ h2 {
     flex-direction: column;
     width: 55%;
     margin-top: 40px;
+    background-color: transparent;
     /* debug */
     min-height: 700px;
-    background-color: aquamarine;
-    border: 2px dashed black;
+}
+
+/* regole titili business */
+h2 {
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    /* debug */
+    /* background-color: brown;
+    height: 60px; */
 }
 
 /* regole sezione fatturazione */
 .invoicing {
+    display: flex;
     width: 100%;
+    margin-top: 50px;
     /* debug */
-    background-color: blueviolet;
+    /* background-color: blueviolet;
     border: 2px dashed black;
-    height: 50px;
+    height: 50px; */
 }
 
+.inv-type {
+    margin-right: 40px;
+}
+
+.year {
+    margin-left: 50px;
+}
 /* regole sezione tipo piano */
 .plans {
     display: flex;
@@ -206,17 +214,41 @@ h2 {
     align-items: stretch;
     width: 100%;
     /* debug */
-    height: 500px;
+    min-height: 700px;
     background-color: blue;
 }
 
 .type-plan {
     width: 30%;
     margin-top: 30px;
+    font-size: 15px;
     /* debug */
     background-color: red;
-    
+    border: 1px solid gray;
 }
+
+.options-plan {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+/* regole sezione info generiche */
+.generic-info {
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.generic-info div{
+    padding: 10px 0;
+}
+
+.duration {
+    color: gray;
+}
+
+/* regole info specifiche */
 
 /* regole sezione contati enterprise */
 .spec-enterprise {
