@@ -81,6 +81,11 @@ nav {
     padding: 5px 15px;
 }
 
+.big-bt {
+    font-size: 15px;
+    padding: 10px;
+}
+
 .blue:hover {
     background-color: #649efa;
 }
@@ -133,27 +138,44 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    min-height: 200px;
     width: 100%;
+    height: fit-content;
+    /* debug */
+    
+    
 }
 
 .des-hero {
-    background-color: pink;
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    gap: 30px;
+    margin-top: 40px;
+    height: fit-content;
     /* debug */
-    min-height: 300px;
+    /* min-height: 300px;
     border: 2px dashed black;
+    background-color: pink; */
+} 
+
+.arrow {
+    margin-top: 30px;
+    font-size: 50px;
 }
 
 .img-hero {
-    width: 50%;
+    width: 70%;
+    margin-top: 40px;
     /* debug */
-    min-height: 300px;
+    /* min-height: 300px;
     border: 2px dashed black;
-    background-color: pink;
+    background-color: pink; */
 }
 
+.img-hero img {
+    width: 100%;
+}
 /* regole sezione piani business */
 
 .business {
