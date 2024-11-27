@@ -97,6 +97,12 @@ main {
 /* regole vari titoli main */
 
 /* regole titoli principali */
+.main-title-hero {
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
 h2 {
     display: flex;
     width: 100%;
@@ -111,10 +117,16 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: blue;
+    background-color: #b4d0e6;
     width: 100%;
     /* debug */
     min-height: 400px;
+}
+
+.container-hero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
 }
 
 .main-title-hero {
@@ -148,7 +160,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 70%;
+    width: 55%;
     margin-top: 40px;
     /* debug */
     min-height: 700px;
@@ -207,7 +219,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 70%;
+    width: 55%;
     margin-top: 100px;
     /* debug */
     min-height: 200px;
@@ -228,7 +240,7 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 100px;
-    width: 70%;
+    width: 55%;
     /* debug */
     height: 150px;
     background-color: blue;
@@ -256,7 +268,7 @@ footer {
 .top-footer {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 65%;
     /* debug */
     height: 80%;
     background-color: blue;
@@ -275,7 +287,7 @@ footer {
 .bottom-footer {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 65%;
     color: white;
     /* debug */
     height: 100px;
