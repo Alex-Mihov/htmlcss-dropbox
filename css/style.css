@@ -189,6 +189,10 @@ h2 {
     height: 60px; */
 }
 
+h3 {
+    font-size: 25px;
+}
+
 /* regole sezione fatturazione */
 .invoicing {
     display: flex;
@@ -241,9 +245,7 @@ h2 {
     padding: 0 30px;
 }
 
-.generic-info h3 {
-    font-size: 25px;
-}
+
 
 .generic-info div{
     padding: 10px 0;
@@ -314,9 +316,7 @@ h2 {
     /* background-color: red; */
 }
 
-.enterprise-des h3 {
-    font-size: 25px;
-}
+
 
 .enterprise-des div {
     font-weight: bold;
@@ -339,11 +339,43 @@ h2 {
 
 /* regole sezione foto e descrizione trova un partner */
 .find-partner {
+    display: flex;
     margin-top: 150px;
     width: 100%;
     /* debug */
-    background-color: beige;
-    height: 300px;
+    /* background-color: beige;
+    height: 300px; */
+}
+
+/* regole sezione img partner */
+.partner-img {
+    width: 60%;
+}
+
+.partner-img img {
+    width: 100%;
+}
+
+/* regole sezione des partner */
+.partner-des {
+    width: 40%;
+    padding: 50px;
+}
+
+.partner-des p {
+    margin-top: 20px;
+}
+
+.partner-bt {
+    color: black;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.partner-bt:hover {
+    background-color: #b3b3b3;
 }
 
 /* regole sezione operazioni dropbox */
