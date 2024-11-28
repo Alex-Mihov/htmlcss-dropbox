@@ -13,6 +13,7 @@ header {
     padding: 30px 0;
     /* debug */
     height: 80px;
+    z-index: 999;
 }
 
 /* regole header sinistra */
@@ -34,9 +35,18 @@ nav {
     border: 2px dashed black; */
 }
 
+.navigation-header ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation-header li a {
+    padding-bottom: 26px;
+}
+
 /* hover header */
 
-.navigation-header a:hover {
+.navigation-header li a:hover {
     border-bottom: 2px solid black;
 }
 
@@ -53,6 +63,8 @@ nav {
 .left-side img {
     margin-left: 20px;
 }
+
+
 
 /* regole header parte destra */
 .right-side {
@@ -150,13 +162,16 @@ main {
 } 
 
 .arrow {
-    margin-top: 30px;
+    margin: 30px 0 15px 0;
     font-size: 50px;
+    text-decoration: none;
+    color: black;
 }
 
 .img-hero {
     width: 70%;
     margin-top: 40px;
+    position: relative;
     /* debug */
     /* min-height: 300px;
     border: 2px dashed black;
@@ -165,6 +180,8 @@ main {
 
 .img-hero img {
     width: 100%;
+    position: absolute;
+    bottom: -15;
 }
 /* regole sezione piani business */
 
@@ -173,7 +190,7 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     width: 55%;
-    margin-top: 40px;
+    margin-top: 140px;
     background-color: transparent;
     /* debug */
     min-height: 700px;
@@ -204,13 +221,7 @@ h3 {
     height: 50px; */
 }
 
-.inv-type {
-    margin-right: 40px;
-}
 
-.year {
-    margin-left: 50px;
-}
 /* regole sezione tipo piano */
 .plans {
     display: flex;
@@ -265,17 +276,36 @@ h3 {
     padding: 0 30px;
 }
 
-.specific-info div {
-    padding: 10px 0;
+.specific-info ul {
+    list-style: none;
+}
+
+.specific-info li {
+    display: flex;
+    margin-top: 10px;
+}
+
+.specific-info span {
+    padding-left: 10px;
 }
 
 .plans-bt {
     padding: 10px 40px;
     margin-top: 40px;
+    width: 100%;
 }
 
 .buy {
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buy a {
+    color: #0061fe;
+}
+
+.division-line {
+    color: grey;
 }
 
 /* regole sezione punti salienti */
@@ -284,10 +314,8 @@ h3 {
     margin-top: 50px;
 }
 
-.highlights::before {
-    content: "\2713";
+.fa-check {
     color: #0061fe;
-    font-weight: bold;
 }
 /* regole sezione contati enterprise */
 .spec-enterprise {
@@ -462,7 +490,7 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 65%;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     /* debug */
     /* height: 80%;
     background-color: blue; */
@@ -494,15 +522,18 @@ footer {
 
 .bottom-footer {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 65%;
     color: white;
-    border-top: 1px solid white;
     /* debug */
     height: 100px;
 }
 
 .bottom-footer i {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 30px 5px 0 5px;
+}
+
+.bottom-footer span {
+    color: white;
 }
