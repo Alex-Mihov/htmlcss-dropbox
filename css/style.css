@@ -221,6 +221,22 @@ h3 {
     height: 50px; */
 }
 
+.invoicing-type {
+    display: flex;
+    margin-right: 20px;
+}
+
+.check {
+    border: 4px solid #0061fe;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.year {
+    border: 2px solid grey;
+}
+
 
 /* regole sezione tipo piano */
 .plans {
@@ -468,6 +484,7 @@ margin-top: 30px;
     margin-top: 50px;
     width: 100%;
     font-size: 15px;
+    color: #0061fe;
     /* debug */
     /* background-color: blueviolet;
     height: 50px; */
